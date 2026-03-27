@@ -9,6 +9,8 @@ The project is organized as follows:
   - `data_preprocessing_and_engineering.ipynb`: Main Jupyter Notebook covering the data pipeline.
   - `hotel_bookings_resort.csv`: The primary dataset (formerly H1.csv).
   - `cleaned_data.csv`: Output of the cleaning and preprocessing steps.
+- `WEEK2/`: Focuses on Exploratory Data Analysis (EDA) and Statistical Testing.
+  - `eda_and_statistical_testing.ipynb`: Notebook analyzing correlations and variables.
 
 ## Analysis Workflow
 The analysis is divided into several key stages:
@@ -31,6 +33,12 @@ The analysis is divided into several key stages:
 
 ### 4. Data Storage
 - The final refined and cleaned dataset is exported as `cleaned_data.csv` for use in subsequent analysis or model training steps.
+
+### 5. Exploratory Data Analysis (Week 2)
+- **Data Distribution**: Visualizing numerical features using histograms and boxplots.
+- **Correlation Analysis**: Generating heatmaps to find key drivers of cancellations.
+- **Bivariate Analysis**: Analyzing `adr` vs `is_canceled` to understand price sensitivity.
+- **Findings Documentation**: Key insights and trend analysis documented within the notebooks.
 
 ## Technologies Used
 - **Python**: Core programming language.
